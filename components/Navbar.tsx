@@ -4,13 +4,16 @@ import { Button } from "./ui/button";
 
 const Navbar = () => {
   return (
-    <nav className="mx-32 bg-white flexBetween max-container padding-container relative z-30 py-5">
+    <nav className="fixed rounded-2xl p-6 bg-white flexBetween gap-x-20 left-10 top-[32px]  z-30 py-5">
       <div className="flexCenter gap-8">
+        {/* Logo */}
         <Link href="/">
           <div className="font-oleo logo text-color-primary border-r-2 border-color-secondary pr-4">
             Paw Prints
           </div>
         </Link>
+
+        {/* Navbar Links */}
         <ul className=" hidden md:flexCenter gap-12 ">
           {NAV_LINKS.map((link) => (
             <Link className=" flexCenter gap-2" href={link.href} key={link.key}>
@@ -20,6 +23,8 @@ const Navbar = () => {
           ))}
         </ul>
       </div>
+
+      {/* Navbar Buttons */}
 
       <div className="hidden md:flexCenter gap-4">
         <Button
