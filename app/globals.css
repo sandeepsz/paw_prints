@@ -77,10 +77,14 @@
 }
 
 body {
+  position: relative;
   font-family: "Work Sans", sans-serif;
 }
 
 @layer utilities {
+  .logo {
+    @apply font-bold text-2xl;
+  }
   .max-container {
     @apply mx-auto max-w-[1440px];
   }

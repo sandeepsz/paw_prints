@@ -22,6 +22,10 @@ const config = {
         oleo: ['"Oleo Script"', "system-ui"],
       },
       colors: {
+        color: {
+          primary: "#8B4513",
+          secondary: "#e9e0e0",
+        },
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
