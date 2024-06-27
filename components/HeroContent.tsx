@@ -13,7 +13,7 @@ import {
 const HeroContent = () => {
   return (
     <>
-      <div className="w-[1150px]  md:flexBetween lg:gap-28 mx-24 md:mx-12 mt-20 md:mt-28 lg:mt-16">
+      <div className="w-[1150px]  md:flexBetween lg:gap-28 mx-24 md:mx-12 mt-20 md:mt-28 lg:mt-8">
         <div className="flex flex-col gap-8">
           <Carousel className="" orientation="horizontal">
             <CarouselContent>
