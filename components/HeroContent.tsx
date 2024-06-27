@@ -13,16 +13,16 @@ import {
 const HeroContent = () => {
   return (
     <>
-      <div className="w-[1150px] md:flexBetween  lg:gap-28 mx-12 mt-96 md:mt-28">
+      <div className="w-[1150px]  md:flexBetween lg:gap-28 mx-24 md:mx-12 mt-20 md:mt-28 lg:mt-16">
         <div className="flex flex-col gap-8">
           <Carousel className="" orientation="horizontal">
             <CarouselContent>
               <CarouselItem>
-                <div className="flex flex-col gap-6">
+                <div className="flex flex-col gap-6 md:mt-12">
                   <p className="font-semibold text-sm">
                     SAVING LIVES EVERY DAY
                   </p>
-                  <p className="font-bold text-5xl">
+                  <p className="font-bold md:text-5xl text-3xl">
                     Saving lives of cats and
                     <br />
                     dogs across world{" "}
@@ -51,7 +51,7 @@ const HeroContent = () => {
             </Button>
           </div>
         </div>
-        <div className="md:h-72 md:w-56 border-4  border-white bg-color-indigo rounded-tr-full rounded-tl-full">
+        <div className=" md:block hidden md:h-72 md:w-56 border-4  border-white bg-color-indigo rounded-tr-full rounded-tl-full">
           <Image
             width={200}
             height={100}
