@@ -23,8 +23,10 @@ const config = {
       },
       colors: {
         color: {
-          primary: "#8B4513",
-          secondary: "#e9e0e0",
+          primary: "#A7D7C5",
+          brown: "#8B4513",
+          darkBrown: "#5C3B20",
+          white: "#ffffff",
         },
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",

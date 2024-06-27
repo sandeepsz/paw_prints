@@ -3,10 +3,8 @@ import Navbar from "./Navbar";
 
 const Hero = () => {
   return (
-    <section className="hero relative h-screen w-full">
-      <div className="max-w-[1420px]">
-        <Navbar />
-      </div>
+    <section className="hero h-screen w-full flex items-center justify-center">
+      <Navbar />
     </section>
   );
 };
