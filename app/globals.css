@@ -82,7 +82,7 @@ body {
 }
 
 .hero {
-  background-color: aquamarine;
+  background-color: #93ceaa;
 }
 
 @layer utilities {

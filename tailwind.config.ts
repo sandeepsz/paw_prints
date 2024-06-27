@@ -27,6 +27,7 @@ const config = {
           brown: "#8B4513",
           darkBrown: "#5C3B20",
           white: "#ffffff",
+          indigo: "#110227",
         },
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
