@@ -6,7 +6,7 @@ import Card from "./Card";
 
 const Help = () => {
   return (
-    <section className="h-screen cream mt-96 md:mt-24 pt-14">
+    <section className="h-full pb-20 cream mt-96 md:mt-24 pt-14">
       <div className="w-auto flex flexCol gap-6">
         <div className=" flexCol gap-6 ">
           <h3 className=" font-semibold text-sm text-color-brown">

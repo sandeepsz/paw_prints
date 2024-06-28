@@ -34,7 +34,7 @@ const Card = ({
   }, [sliderValue, goal]);
 
   return (
-    <div className="flexCol w-full gap-10 shadow-lg">
+    <div className="flexCol w-full gap-10 md:my-0 my-12 shadow-lg">
       <div>
         <Image
           className="rounded-t-sm"
