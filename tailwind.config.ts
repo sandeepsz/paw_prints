@@ -29,6 +29,7 @@ const config = {
           white: "#ffffff",
           indigo: "#110227",
           slate: "#696F8C",
+          black: "#0A0117",
         },
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",

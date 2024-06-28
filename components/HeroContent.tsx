@@ -13,7 +13,7 @@ import {
 const HeroContent = () => {
   return (
     <>
-      <div className="w-[1150px] flexBetween lg:gap-28 text-center md:text-start md:mx-12 mt-20 md:mt-28 lg:mt-8">
+      <div className="w-[1150px] flexBetween lg:gap-28 text-center md:text-start md:mx-12 mt-0 md:mt-28 lg:mt-8">
         <div className="flex flex-col gap-8">
           <Carousel className="" orientation="horizontal">
             <CarouselContent>
@@ -27,7 +27,7 @@ const HeroContent = () => {
                     <br />
                     dogs across world{" "}
                   </p>
-                  <p className="font-normal text-sm">
+                  <p className="font-normal text-xs md:text-sm">
                     We advovate for vulnerable animals, providing safety while
                     promoting reponsible pet
                     <br />

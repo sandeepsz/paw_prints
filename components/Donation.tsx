@@ -1,10 +1,10 @@
+import { CARD_DATA } from "@/constants";
 import React from "react";
+import Card from "./Card";
 import { Button } from "./ui/button";
 import { MoveRight } from "lucide-react";
-import { CARD_DATA } from "@/constants";
-import Card from "./Card";
 
-const Help = () => {
+const Donation = () => {
   return (
     <section className="h-screen cream mt-96 md:mt-24 pt-14">
       <div className="w-auto flex flexCol gap-6">
@@ -46,4 +46,4 @@ const Help = () => {
   );
 };
 
-export default Help;
+export default Donation;
