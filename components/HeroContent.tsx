@@ -13,12 +13,12 @@ import {
 const HeroContent = () => {
   return (
     <>
-      <div className="w-[1150px]  md:flexBetween lg:gap-28 mx-20 md:mx-12 mt-20 md:mt-28 lg:mt-8">
+      <div className="w-[1150px] flexBetween lg:gap-28 text-center md:text-start md:mx-12 mt-20 md:mt-28 lg:mt-8">
         <div className="flex flex-col gap-8">
           <Carousel className="" orientation="horizontal">
             <CarouselContent>
               <CarouselItem>
-                <div className="flex flex-col gap-6 md:mt-12">
+                <div className="flex flex-col gap-6 md:mt-28">
                   <p className="font-semibold text-sm">
                     SAVING LIVES EVERY DAY
                   </p>
@@ -42,7 +42,7 @@ const HeroContent = () => {
           </Carousel>
           <div>
             <Button
-              className="text-lg flexBetween gap-1"
+              className="text-lg md:flexBetween gap-1"
               variant="default"
               size="medium"
             >

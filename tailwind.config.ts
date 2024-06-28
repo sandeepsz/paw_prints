@@ -28,6 +28,7 @@ const config = {
           darkBrown: "#5C3B20",
           white: "#ffffff",
           indigo: "#110227",
+          slate: "#696F8C",
         },
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
