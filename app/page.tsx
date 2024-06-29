@@ -1,4 +1,5 @@
 import About from "@/components/About";
+import Cta from "@/components/Cta";
 import Donation from "@/components/Donation";
 import Help from "@/components/Help";
 import Hero from "@/components/Hero";
@@ -12,6 +13,7 @@ export default function Home() {
       <Help />
       <Donation />
       <Testimonial />
+      <Cta />
     </>
   );
 }

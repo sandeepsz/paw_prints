@@ -23,7 +23,7 @@ const Testimonial = () => {
     const fetchData = async () => {
       try {
         const response = await axios.get(
-          "https://raw.githubusercontent.com/Himal-Marasini/frontend-task/main/testinomial_data.json"
+          `${process.env.NEXT_PUBLIC_TESTIMONIAL_API}`
         );
         setTestimonials(response.data.testimonial);
       } catch (error) {
@@ -33,11 +33,8 @@ const Testimonial = () => {
 
     fetchData();
   }, []);
-
-  console.log(testimonials);
-
   return (
-    <section className="h-screen md:mt-10 pt-14 md:pt-0 ">
+    <section className="h-screen md:mt-20 pt-14 md:pt-0 ">
       <div className="w-auto">
         <div className="flex w-auto flex-col gap-6 items-center justify-center">
           <h3 className=" font-semibold text-sm text-color-brown">
@@ -69,16 +66,18 @@ const Testimonial = () => {
                     />
 
                     <div className="flex flex-col items-start justify-start">
-                      <div className="font-bold text-xl">&ldquo;</div>
+                      <div className="font-bold text-5xl">&ldquo;</div>
                       <div className="w-auto">{testimonial.content}</div>
-                      <div>{testimonial.fullName}</div>
+                      <div className="font-mont font-semibold text-sm">
+                        {testimonial.fullName}
+                      </div>
                     </div>
                   </div>
                 </CarouselItem>
               ))}
             </CarouselContent>
-            <CarouselPrevious className="top-72 left-[55%] -translate-y-1/2 rotate-90" />
-            <CarouselNext className="top-72 left-1/2 -translate-y-1/2 rotate-90" />
+            <CarouselPrevious className="top-[600px] md:top-72 left-[42%] -translate-y-1/2 rotate-90" />
+            <CarouselNext className="top-[600px] bottom-0 md:top-72 left-[36%] -translate-y-1/2 rotate-90" />
           </Carousel>
         </div>
       </div>

@@ -42,27 +42,28 @@ export const CARD_DATA = [
 ];
 export const DONATION_PRICE = [
   {
+    label: "10",
     amount: 10,
   },
   {
+    label: "25",
     amount: 25,
   },
   {
+    label: "50",
     amount: 50,
   },
   {
+    label: "100",
     amount: 100,
   },
   {
+    label: "250",
     amount: 250,
   },
 ];
 
 export const FOOTER_LINKS1 = [
-  {
-    label: "QUICK LINKS",
-    href: "/",
-  },
   {
     label: "About Us",
     href: "/",
@@ -83,10 +84,6 @@ export const FOOTER_LINKS1 = [
 
 export const FOOTER_LINKS2 = [
   {
-    label: "RESOURCES",
-    href: "/",
-  },
-  {
     label: "Animal Safty",
     href: "/",
   },
@@ -105,10 +102,6 @@ export const FOOTER_LINKS2 = [
 ];
 
 export const FOOTER_LINKS3 = [
-  {
-    label: "WAY TO GIVE",
-    href: "/",
-  },
   {
     label: "Find a Family",
     href: "/",

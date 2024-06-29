@@ -34,27 +34,26 @@ const NewsLetter = () => {
   });
   return (
     <Form {...form}>
-      <form
-        className="flex items-center justify-center  gap-4 space-y-8"
-        onSubmit={form.handleSubmit(onSubmit)}
-      >
-        <FormField
-          control={form.control}
-          name="email"
-          render={({ field }) => (
-            <FormItem>
-              <FormControl>
-                <Input
-                  className="w-60 mt-8"
-                  placeholder="Enter Your Email"
-                  {...field}
-                />
-              </FormControl>
-              <FormMessage className="mt-8" />
-            </FormItem>
-          )}
-        />
-        <Button type="submit">Submit</Button>
+      <form className="space-y-8" onSubmit={form.handleSubmit(onSubmit)}>
+        <div className="flex items-center justify-center gap-4">
+          <FormField
+            control={form.control}
+            name="email"
+            render={({ field }) => (
+              <FormItem>
+                <FormControl>
+                  <Input
+                    className="w-60"
+                    placeholder="Enter Your Email"
+                    {...field}
+                  />
+                </FormControl>
+                <FormMessage />
+              </FormItem>
+            )}
+          />
+          <Button type="submit">Submit</Button>
+        </div>
       </form>
     </Form>
   );
