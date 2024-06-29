@@ -79,7 +79,7 @@ const Donation = () => {
                   variant="outline"
                   onClick={() => handleDonationChange(data.amount)}
                 >
-                  $ 10.00
+                  ${data.label}
                 </Button>
               ))}
             </div>
