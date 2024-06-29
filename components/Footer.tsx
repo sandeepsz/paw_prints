@@ -26,7 +26,7 @@ const Footer = () => {
           <NewsLetter />
         </div>
       </div>
-      <div className="md:w-[1150px] w-auto md:flexBetween lg:gap-28 text-center md:text-start mx-auto mt-20 md:mt-28 lg:mt-8 ">
+      <div className="md:w-[1150px]  md:flexBetween lg:gap-28 text-center md:text-start mx-auto mt-20 md:mt-28 lg:mt-8 ">
         <p className="font-oleo sm:text-xl">PawPrints</p>
       </div>
       <div className="md:w-[1150px]  text-xs gap-6 grid grid-cols-2 md:grid-cols-4  lg:gap-28 md:text-start md:mx-auto mx-6 w-full  mt-20 md:mt-28 lg:mt-8 ">

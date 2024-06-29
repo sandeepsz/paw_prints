@@ -7,7 +7,7 @@ import { Slider } from "./ui/slider";
 const About = () => {
   return (
     <>
-      <section className="h-screen md:mt-10 pt-14 md:pt-0 ">
+      <section className="md:h-screen h-full md:mt-10 pt-14 md:pt-0 ">
         <div className="w-auto">
           <div className="flex w-auto flex-col gap-6 items-center justify-center">
             <h3 className=" font-semibold text-sm text-color-brown">
